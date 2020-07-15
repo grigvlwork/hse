@@ -11,7 +11,7 @@ int main(){
     set <int> visited;
     int n, m, x, y;
     cin >> n;
-    for(int i = 0; i < n; ++i){
+    for(int i = 0; i < n - 1; ++i){
         cin >> x >> y;
         graph[x].insert(y);
         graph[y].insert(x);
